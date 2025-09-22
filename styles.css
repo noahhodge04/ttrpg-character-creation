@@ -5,6 +5,7 @@ html{
     background-repeat:no-repeat;
 }
 
+/* Applies background images to appropriate pages */
 .dnd{
     background-image: url("img/dnd-5e-sheet.jpg");
 }
@@ -13,6 +14,7 @@ html{
     background-image: url("img/pf-2e-sheet.jpg");
 }
 
+/* Makes the header float above the content, allowing for the background images to show well */
 header{
     text-align:center;
     padding:20px;
@@ -21,6 +23,8 @@ header{
     
 }
 
+
+/* Styling for the header link that goes to the other page */
 header a{
     color:black;
     background-color:white;
@@ -31,11 +35,13 @@ header a{
     font-family:Helvetica;
 }
 
-h1{
+/* Makes the header big and nicer to look at */
+header h1{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:45pt;
 }
 
+/* Container for all of the sections */
 .content{
     background-color: white;
     max-width:1000px;
@@ -45,6 +51,7 @@ h1{
     flex-wrap:wrap;
 }
 
+/* sets of paragraphs and lists on a particular topic */
 section{
     display:flex;
     flex-wrap:wrap;
@@ -52,18 +59,19 @@ section{
     padding-inline:50px;
 }
 
+/* Section headings, currently used in content sections */
 h2{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
+/* Paragraphs, currently only used in content sections */
 p{
     font-family:Helvetica
+}
+ul, ol{
+    line-height: 1.5; /* Spaces the list items to make them more readable */
 }
 
 li{
     font-family:Helvetica;
-}
-
-ul, ol{
-    line-height: 1.5;
 }
