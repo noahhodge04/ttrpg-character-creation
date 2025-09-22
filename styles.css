@@ -1,0 +1,69 @@
+html{
+    background-color:#F1EEE9;
+    margin:auto;
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+
+.dnd{
+    background-image: url("img/dnd-5e-sheet.jpg");
+}
+
+.pf{
+    background-image: url("img/pf-2e-sheet.jpg");
+}
+
+header{
+    text-align:center;
+    padding:20px;
+    color:white;
+    padding:100px;
+    
+}
+
+header a{
+    color:black;
+    background-color:white;
+    border-radius:8pt;
+    font-size:16pt;
+    text-decoration:none;
+    padding-inline:15px;
+    font-family:Helvetica;
+}
+
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:45pt;
+}
+
+.content{
+    background-color: white;
+    max-width:1000px;
+    margin:auto;
+    padding:50px;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+section{
+    display:flex;
+    flex-wrap:wrap;
+    background-color:white;
+    padding-inline:50px;
+}
+
+h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+p{
+    font-family:Helvetica
+}
+
+li{
+    font-family:Helvetica;
+}
+
+ul, ol{
+    line-height: 1.5;
+}
