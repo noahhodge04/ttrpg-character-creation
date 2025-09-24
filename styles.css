@@ -81,3 +81,14 @@ ul, ol{
 li{
     font-family:Helvetica;
 }
+
+@media (max-width:650px){
+    header h1{
+        font-size:30pt;
+    }
+    .content{
+        line-height:1.5;
+        padding:0px;
+        font-size:11pt
+    }
+}
