@@ -22,12 +22,18 @@ header{
     padding:100px;
 }
 
+/* Styles the nav box. Separate from the link to better manage text wrapping */
+header nav{
+    margin:auto;
+    background-color:white;
+    border-radius:8pt;
+    width:fit-content;
+}
+
 
 /* Styling for the header link that goes to the other page */
 header a{
     color:black;
-    background-color:white;
-    border-radius:8pt;
     font-size:16pt;
     text-decoration:none;
     padding-inline:15px;
