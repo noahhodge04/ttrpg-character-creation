@@ -17,7 +17,6 @@ html{
 /* Makes the header float above the content, allowing for the background images to show well */
 header{
     text-align:center;
-    padding:32px;
     color:white;
     padding:100px;
 }
@@ -89,9 +88,22 @@ li{
 }
 
 @media (max-width:650px){
-    header h1{
-        font-size:30pt;
+    header{
+        padding:50px;
     }
+    
+    header h1{
+        font-size:20pt;
+    }
+
+    header nav{
+        max-width:70%;
+    }
+
+    header nav a{
+        font-size:8pt;
+    }
+    
     .content{
         line-height:1.5;
         padding:0px;
