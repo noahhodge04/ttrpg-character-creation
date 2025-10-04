@@ -1,5 +1,4 @@
 html{
-    background-color:#F1EEE9;
     margin:auto;
     background-size:100%;
     background-repeat:no-repeat;
@@ -11,7 +10,10 @@ html{
 }
 
 .pf{
+    background-color:#F1EEE9;
     background-image: url("img/pf-2e-sheet.jpg");
+    background-size:100%;
+    background-repeat:no-repeat;
 }
 
 /* Makes the header float above the content, allowing for the background images to show well */
@@ -22,21 +24,29 @@ header{
 }
 
 /* Styles the nav box. Separate from the link to better manage text wrapping */
-header nav{
+header nav a{
     margin:auto;
     background-color:white;
     border-radius:8pt;
     width:fit-content;
 }
 
-
 /* Styling for the header link that goes to the other page */
-header a{
+
+
+header .btn{
     color:black;
     font-size:16pt;
     text-decoration:none;
     padding-inline:15px;
-    font-family:Helvetica;
+    background-color:#EEEEEE;
+    border-radius:8pt;
+}
+
+header .btn:hover{
+    background-color:#DDDDDD;
+    text-decoration:none;
+    color:black
 }
 
 /* Makes the header big and nicer to look at */
@@ -55,11 +65,8 @@ header h1{
 /* Container for all of the sections */
 .content{
     background-color: white;
-    max-width:1000px;
-    margin:auto;
-    padding:50px;
-    display:flex;
-    flex-wrap:wrap;
+    padding:24px;
+    border-radius:16px;
 }
 
 /* sets of paragraphs and lists on a particular topic */
@@ -68,6 +75,11 @@ section{
     flex-wrap:wrap;
     background-color:white;
     padding-inline:50px;
+}
+.content-section{
+    background-color:#EEEEEE;
+    border-radius:16pt;
+    padding:15px
 }
 
 /* Section headings, currently used in content sections */
