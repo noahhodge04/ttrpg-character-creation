@@ -16,6 +16,13 @@ html{
     background-repeat:no-repeat;
 }
 
+.dnd{
+    background-color:#F1EEE9;
+    background-image: url("img/pf-2e-sheet.jpg");
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+
 /* Makes the header float above the content, allowing for the background images to show well */
 header{
     text-align:center;
